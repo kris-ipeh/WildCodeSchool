@@ -1,0 +1,23 @@
+{
+  "name": "tamagooshi",
+  "version": "0.0.1",
+  "description": "simple tamagooshi dojo wcs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "wsc",
+    "tamgooshi"
+  ],
+  "author": "us",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "should": "^13.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

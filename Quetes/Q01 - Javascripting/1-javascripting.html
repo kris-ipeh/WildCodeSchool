@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Introduction au javascript</title>
+</head>
+<body>
+  <h2>Une histoire de patates ...</h2>
+
+  <script>
+  var message = prompt("Est-ce que tu aimes les patates ?", "oui/non");
+  message = message.toUpperCase();
+  if (message == "OUI") {
+      document.write("Affichage des patates dans la console");
+      var str = "#";
+      for (var i = 0; i < 7; i++) {
+        console.log(str)
+        //document.write(str);
+        str += "#";
+        //document.write("<br />");
+        console.log("\n")
+      }
+  } else if (message == "NON"){
+      alert("Tu n'aimes pas les patates");
+  }
+    else {
+      alert("Indécision");
+      }
+  </script>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+   <title> Meteo en javascript </title>
+ </head>
+ <body>
+   <div align="center">
+      <div id="name"></div>
+      <div id="description"></div>
+      <div id="icon"></div>
+      <div id="temp"></div>
+   </div>
+<script language="javascript">
+function controle(formulaire) {
+var ville = document.formulaire.input_ville.value;
+weather(ville);
+}
+</script>
+    <div align="center">
+    <form name="formulaire">
+      <input type="text" name="input_ville" value=""><br />
+      <input type="button" name="bouton" value="Rechercher la température" onClick="controle(formulaire)">
+    </form>
+    </div>
+ </body>
+ <script type="text/javascript" src="js/meteo.js"></script>
+</html>

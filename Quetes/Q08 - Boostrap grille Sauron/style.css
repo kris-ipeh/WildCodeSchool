@@ -1,0 +1,12 @@
+.container-fluid{
+    width:100%;
+    height:100vh;
+}
+.Grey, .Black, .Yellow, .Orange{
+    height:5vw;
+    border: 1px solid white;
+}
+.Grey{  background-color: rgb(54, 54, 54) }
+.Black{  background-color: black }
+.Yellow{ background-color: rgb(250, 223, 0); }
+.Orange{ background-color: rgb(255, 126, 0); }

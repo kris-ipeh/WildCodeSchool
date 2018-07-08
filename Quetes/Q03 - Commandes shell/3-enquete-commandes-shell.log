@@ -1,0 +1,40 @@
+    1  ls
+    2  cd mystery/
+    3  ls
+    4  grep -r CLUE
+    5  grep Annabel people
+    6  echo "Soit Annabel Sun soit Annabel Church, les deux autres sont des hommes"
+    7  ls
+    8  cd streets
+    9  ls
+   10  head -40 Hart_Place | tail -1
+   11  head -179 Buckingham_Place | tail -1
+   12  cd ../
+   13  ls
+   14  cd interviews
+   15  ls
+   16  nano interview-47246024
+   17  nano interview-699607
+   18  echo "echo blue honda, la plaque commence par L337 et termine par 9"
+   19  cd ../
+   20  nano vehicles
+   21  grep -3 L337
+   22  grep -3 L337 vehicles
+   23  echo "suspects potentiels : Heather Billings, Jeremy Bowers, et peut-etre Jacqui Maher"
+   24  grep -3 "Jacqui Maher"
+   25  grep -3 "Jacqui Maher" people
+   26  grep -3 "Jacqui Maher" vehicles
+   27  grep Heather Billings people
+   28  grep "Jeremy Bowers" people
+   29  grep "Jacqui Maher" people
+   30  echo "c'est Jeremy Bowers ! Homme de plus de 6', c'est le seul, les deux autres sont des femmes"
+   31  echo "on verifie avec les cartes"
+   32  ls
+   33  cd memberships
+   34  ls
+   35  grep "Jeremy Bowers" AAA
+   36  grep "Jeremy Bowers" Museum_of_Bash_History 
+   37  grep "Jeremy Bowers" Delta_SkyMiles 
+   38  grep "Jeremy Bowers" Terminal_City_Library 
+   39  echo "ASSASSIN §§§ Jeremy Bowers"
+   40  history > mon_historique.log
